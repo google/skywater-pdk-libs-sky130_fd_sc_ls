@@ -1,30 +1,30 @@
 {
   "area": 22.3776,
-  "cell_footprint": "a222oi",
+  "cell_footprint": "sky130_fd_sc_ls__a222oi",
   "cell_leakage_power": 0.0,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "primary_ground",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "primary_power",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin A1": {
+  "pin,A1": {
     "capacitance": 0.00526,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -56,7 +56,7 @@
           0.01917
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -93,13 +93,13 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin A2": {
+  "pin,A2": {
     "capacitance": 0.00456,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -131,7 +131,7 @@
           0.01285
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -168,13 +168,13 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin B1": {
+  "pin,B1": {
     "capacitance": 0.00529,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -206,7 +206,7 @@
           0.01345
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -243,13 +243,13 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin B2": {
+  "pin,B2": {
     "capacitance": 0.00451,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -281,7 +281,7 @@
           0.01333
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -318,13 +318,13 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin C1": {
+  "pin,C1": {
     "capacitance": 0.0048,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -356,7 +356,7 @@
           0.00874
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -393,13 +393,13 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin C2": {
+  "pin,C2": {
     "capacitance": 0.00538,
     "clock": "false",
     "direction": "input",
     "input_voltage": "GENERAL",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -431,7 +431,7 @@
           0.00863
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.01,
           0.01735,
@@ -468,12 +468,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin Y": {
+  "pin,Y": {
     "direction": "output",
     "function": "(!A1&!B1&!C1) | (!A1&!B1&!C2) | (!A1&!B2&!C1) | (!A2&!B1&!C1) | (!A1&!B2&!C2) | (!A2&!B1&!C2) | (!A2&!B2&!C1) | (!A2&!B2&!C2)",
     "internal_power": [
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -661,7 +661,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -851,7 +851,7 @@
         "when": "(A2&!B1&!C1) | (A2&!B1&!C2) | (A2&!B2&!C1) | (A2&!B2&!C2)"
       },
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1039,7 +1039,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1229,7 +1229,7 @@
         "when": "(A1&!B1&!C1) | (A1&!B1&!C2) | (A1&!B2&!C1) | (A1&!B2&!C2)"
       },
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1417,7 +1417,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1607,7 +1607,7 @@
         "when": "(!A1&B2&!C1) | (!A1&B2&!C2) | (!A2&B2&!C1) | (!A2&B2&!C2)"
       },
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1795,7 +1795,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -1985,7 +1985,7 @@
         "when": "(!A1&B1&!C1) | (!A1&B1&!C2) | (!A2&B1&!C1) | (!A2&B1&!C2)"
       },
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -2173,7 +2173,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -2363,7 +2363,7 @@
         "when": "(!A1&!B1&C2) | (!A1&!B2&C2) | (!A2&!B1&C2) | (!A2&!B2&C2)"
       },
       {
-        "fall_power pwr_template13x10": {
+        "fall_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -2551,7 +2551,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_power pwr_template13x10": {
+        "rise_power,pwr_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -2749,7 +2749,7 @@
     "timing": [
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -3719,7 +3719,7 @@
           "miller_cap_fall": 0.001201,
           "miller_cap_rise": 0.00124,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -3811,7 +3811,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -3903,7 +3903,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -4082,7 +4082,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17890625
@@ -4263,7 +4263,7 @@
           "stage_type": "both",
           "when": "A2 !B1 !B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -4450,7 +4450,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -4637,7 +4637,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -4825,7 +4825,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -5018,7 +5018,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -5988,7 +5988,7 @@
           "miller_cap_fall": 0.001091,
           "miller_cap_rise": 0.001241,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -6080,7 +6080,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -6172,7 +6172,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -6351,7 +6351,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16171875
@@ -6532,7 +6532,7 @@
           "stage_type": "both",
           "when": "A2 !B1 !B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -6719,7 +6719,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -6906,7 +6906,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -7094,7 +7094,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -7287,7 +7287,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -8257,7 +8257,7 @@
           "miller_cap_fall": 0.000919,
           "miller_cap_rise": 0.001241,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -8349,7 +8349,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -8441,7 +8441,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -8620,7 +8620,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16640625
@@ -8801,7 +8801,7 @@
           "stage_type": "both",
           "when": "A2 !B1 !B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -8988,7 +8988,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -9175,7 +9175,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -9363,7 +9363,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -9556,7 +9556,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -10526,7 +10526,7 @@
           "miller_cap_fall": 0.001097,
           "miller_cap_rise": 0.001241,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -10618,7 +10618,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -10710,7 +10710,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -10889,7 +10889,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16015625
@@ -11070,7 +11070,7 @@
           "stage_type": "both",
           "when": "A2 !B1 B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -11257,7 +11257,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -11444,7 +11444,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -11632,7 +11632,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -11825,7 +11825,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -12795,7 +12795,7 @@
           "miller_cap_fall": 0.001024,
           "miller_cap_rise": 0.001241,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -12887,7 +12887,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -12979,7 +12979,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -13158,7 +13158,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14921875
@@ -13339,7 +13339,7 @@
           "stage_type": "both",
           "when": "A2 !B1 B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -13526,7 +13526,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -13713,7 +13713,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -13901,7 +13901,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -14094,7 +14094,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -15064,7 +15064,7 @@
           "miller_cap_fall": 0.00103,
           "miller_cap_rise": 0.001241,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -15156,7 +15156,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -15248,7 +15248,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -15427,7 +15427,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15234375
@@ -15608,7 +15608,7 @@
           "stage_type": "both",
           "when": "A2 !B1 B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -15795,7 +15795,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -15982,7 +15982,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -16170,7 +16170,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -16363,7 +16363,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -17333,7 +17333,7 @@
           "miller_cap_fall": 0.000983,
           "miller_cap_rise": 0.001243,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -17425,7 +17425,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -17517,7 +17517,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -17696,7 +17696,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15390625
@@ -17877,7 +17877,7 @@
           "stage_type": "both",
           "when": "A2 B1 !B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -18064,7 +18064,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -18251,7 +18251,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -18439,7 +18439,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -18632,7 +18632,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -19602,7 +19602,7 @@
           "miller_cap_fall": 0.000993,
           "miller_cap_rise": 0.001243,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -19694,7 +19694,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -19786,7 +19786,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -19965,7 +19965,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14296875
@@ -20146,7 +20146,7 @@
           "stage_type": "both",
           "when": "A2 B1 !B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -20333,7 +20333,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -20520,7 +20520,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -20708,7 +20708,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -20901,7 +20901,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -21871,7 +21871,7 @@
           "miller_cap_fall": 0.001014,
           "miller_cap_rise": 0.001243,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -21963,7 +21963,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -22055,7 +22055,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -22234,7 +22234,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14609375
@@ -22415,7 +22415,7 @@
           "stage_type": "both",
           "when": "A2 B1 !B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -22602,7 +22602,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -22789,7 +22789,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -22977,7 +22977,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -23170,7 +23170,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -24140,7 +24140,7 @@
           "miller_cap_fall": 0.000729,
           "miller_cap_rise": 0.000521,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -24232,7 +24232,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -24324,7 +24324,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -24503,7 +24503,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19296875
@@ -24684,7 +24684,7 @@
           "stage_type": "both",
           "when": "A1 !B1 !B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -24871,7 +24871,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -25058,7 +25058,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -25246,7 +25246,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -25439,7 +25439,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -26409,7 +26409,7 @@
           "miller_cap_fall": 0.000617,
           "miller_cap_rise": 0.000522,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -26501,7 +26501,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -26593,7 +26593,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -26772,7 +26772,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17578125
@@ -26953,7 +26953,7 @@
           "stage_type": "both",
           "when": "A1 !B1 !B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -27140,7 +27140,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -27327,7 +27327,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -27515,7 +27515,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -27708,7 +27708,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -28678,7 +28678,7 @@
           "miller_cap_fall": 0.000429,
           "miller_cap_rise": 0.000522,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -28770,7 +28770,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -28862,7 +28862,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -29041,7 +29041,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18046875
@@ -29222,7 +29222,7 @@
           "stage_type": "both",
           "when": "A1 !B1 !B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -29409,7 +29409,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -29596,7 +29596,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -29784,7 +29784,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -29977,7 +29977,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -30947,7 +30947,7 @@
           "miller_cap_fall": 0.000633,
           "miller_cap_rise": 0.000522,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -31039,7 +31039,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -31131,7 +31131,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -31310,7 +31310,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17421875
@@ -31491,7 +31491,7 @@
           "stage_type": "both",
           "when": "A1 !B1 B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -31678,7 +31678,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -31865,7 +31865,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -32053,7 +32053,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -32246,7 +32246,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -33216,7 +33216,7 @@
           "miller_cap_fall": 0.000556,
           "miller_cap_rise": 0.000522,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -33308,7 +33308,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -33400,7 +33400,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -33579,7 +33579,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16171875
@@ -33760,7 +33760,7 @@
           "stage_type": "both",
           "when": "A1 !B1 B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -33947,7 +33947,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -34134,7 +34134,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -34322,7 +34322,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -34515,7 +34515,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -35485,7 +35485,7 @@
           "miller_cap_fall": 0.000572,
           "miller_cap_rise": 0.000522,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -35577,7 +35577,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -35669,7 +35669,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -35848,7 +35848,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16484375
@@ -36029,7 +36029,7 @@
           "stage_type": "both",
           "when": "A1 !B1 B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -36216,7 +36216,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -36403,7 +36403,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -36591,7 +36591,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -36784,7 +36784,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -37754,7 +37754,7 @@
           "miller_cap_fall": 0.000485,
           "miller_cap_rise": 0.000523,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -37846,7 +37846,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -37938,7 +37938,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -38117,7 +38117,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16796875
@@ -38298,7 +38298,7 @@
           "stage_type": "both",
           "when": "A1 B1 !B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -38485,7 +38485,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -38672,7 +38672,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -38860,7 +38860,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -39053,7 +39053,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -40023,7 +40023,7 @@
           "miller_cap_fall": 0.000537,
           "miller_cap_rise": 0.000523,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -40115,7 +40115,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -40207,7 +40207,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -40386,7 +40386,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15703125
@@ -40567,7 +40567,7 @@
           "stage_type": "both",
           "when": "A1 B1 !B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -40754,7 +40754,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -40941,7 +40941,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -41129,7 +41129,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -41322,7 +41322,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -42292,7 +42292,7 @@
           "miller_cap_fall": 0.000551,
           "miller_cap_rise": 0.000523,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -42384,7 +42384,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -42476,7 +42476,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -42655,7 +42655,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16015625
@@ -42836,7 +42836,7 @@
           "stage_type": "both",
           "when": "A1 B1 !B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -43023,7 +43023,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -43210,7 +43210,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -43398,7 +43398,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -43591,7 +43591,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -44561,7 +44561,7 @@
           "miller_cap_fall": 0.001401,
           "miller_cap_rise": 0.001082,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -44653,7 +44653,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -44745,7 +44745,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -44924,7 +44924,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19765625
@@ -45105,7 +45105,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -45292,7 +45292,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -45479,7 +45479,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -45667,7 +45667,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -45860,7 +45860,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -46830,7 +46830,7 @@
           "miller_cap_fall": 0.001524,
           "miller_cap_rise": 0.001258,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -46922,7 +46922,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -47014,7 +47014,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -47193,7 +47193,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17734375
@@ -47374,7 +47374,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -47561,7 +47561,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -47748,7 +47748,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -47936,7 +47936,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -48129,7 +48129,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -49099,7 +49099,7 @@
           "miller_cap_fall": 0.001498,
           "miller_cap_rise": 0.001082,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -49191,7 +49191,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -49283,7 +49283,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -49462,7 +49462,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18203125
@@ -49643,7 +49643,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -49830,7 +49830,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -50017,7 +50017,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -50205,7 +50205,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -50398,7 +50398,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -51368,7 +51368,7 @@
           "miller_cap_fall": 0.001632,
           "miller_cap_rise": 0.001083,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -51460,7 +51460,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -51552,7 +51552,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -51731,7 +51731,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18515625
@@ -51912,7 +51912,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -52099,7 +52099,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -52286,7 +52286,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -52474,7 +52474,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -52667,7 +52667,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -53637,7 +53637,7 @@
           "miller_cap_fall": 0.001663,
           "miller_cap_rise": 0.001259,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -53729,7 +53729,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -53821,7 +53821,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -54000,7 +54000,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16953125
@@ -54181,7 +54181,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -54368,7 +54368,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -54555,7 +54555,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -54743,7 +54743,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -54936,7 +54936,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -55906,7 +55906,7 @@
           "miller_cap_fall": 0.0015,
           "miller_cap_rise": 0.001083,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -55998,7 +55998,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -56090,7 +56090,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -56269,7 +56269,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17421875
@@ -56450,7 +56450,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -56637,7 +56637,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -56824,7 +56824,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -57012,7 +57012,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -57205,7 +57205,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -58175,7 +58175,7 @@
           "miller_cap_fall": 0.001676,
           "miller_cap_rise": 0.001082,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -58267,7 +58267,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -58359,7 +58359,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -58538,7 +58538,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18359375
@@ -58719,7 +58719,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B2 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -58906,7 +58906,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -59093,7 +59093,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -59281,7 +59281,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -59474,7 +59474,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -60444,7 +60444,7 @@
           "miller_cap_fall": 0.001716,
           "miller_cap_rise": 0.001258,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -60536,7 +60536,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -60628,7 +60628,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -60807,7 +60807,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16796875
@@ -60988,7 +60988,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B2 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -61175,7 +61175,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -61362,7 +61362,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -61550,7 +61550,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -61743,7 +61743,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -62713,7 +62713,7 @@
           "miller_cap_fall": 0.001448,
           "miller_cap_rise": 0.001082,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -62805,7 +62805,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -62897,7 +62897,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04609375
@@ -63076,7 +63076,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.17265625
@@ -63257,7 +63257,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B2 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -63444,7 +63444,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -63631,7 +63631,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -63819,7 +63819,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -64012,7 +64012,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -64982,7 +64982,7 @@
           "miller_cap_fall": 0.001391,
           "miller_cap_rise": 0.000431,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -65074,7 +65074,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -65166,7 +65166,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -65345,7 +65345,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.20703125
@@ -65526,7 +65526,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B1 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -65713,7 +65713,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -65900,7 +65900,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -66088,7 +66088,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -66281,7 +66281,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -67251,7 +67251,7 @@
           "miller_cap_fall": 0.000988,
           "miller_cap_rise": 0.000698,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -67343,7 +67343,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -67435,7 +67435,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -67614,7 +67614,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19140625
@@ -67795,7 +67795,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B1 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -67982,7 +67982,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -68169,7 +68169,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -68357,7 +68357,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -68550,7 +68550,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -69520,7 +69520,7 @@
           "miller_cap_fall": 0.00086,
           "miller_cap_rise": 0.000708,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -69612,7 +69612,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -69704,7 +69704,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -69883,7 +69883,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19609375
@@ -70064,7 +70064,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B1 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -70251,7 +70251,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -70438,7 +70438,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -70626,7 +70626,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -70819,7 +70819,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -71789,7 +71789,7 @@
           "miller_cap_fall": 0.001439,
           "miller_cap_rise": 0.000524,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -71881,7 +71881,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -71973,7 +71973,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -72152,7 +72152,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19921875
@@ -72333,7 +72333,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B1 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -72520,7 +72520,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -72707,7 +72707,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -72895,7 +72895,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -73088,7 +73088,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -74058,7 +74058,7 @@
           "miller_cap_fall": 0.000946,
           "miller_cap_rise": 0.00037,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -74150,7 +74150,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -74242,7 +74242,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -74421,7 +74421,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18359375
@@ -74602,7 +74602,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B1 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -74789,7 +74789,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -74976,7 +74976,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -75164,7 +75164,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -75357,7 +75357,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -76327,7 +76327,7 @@
           "miller_cap_fall": 0.000991,
           "miller_cap_rise": 0.000319,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -76419,7 +76419,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -76511,7 +76511,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -76690,7 +76690,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18828125
@@ -76871,7 +76871,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B1 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -77058,7 +77058,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -77245,7 +77245,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -77433,7 +77433,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -77626,7 +77626,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -78596,7 +78596,7 @@
           "miller_cap_fall": 0.001305,
           "miller_cap_rise": 0.000513,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -78688,7 +78688,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -78780,7 +78780,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -78959,7 +78959,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.19765625
@@ -79140,7 +79140,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B1 !C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -79327,7 +79327,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -79514,7 +79514,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -79702,7 +79702,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -79895,7 +79895,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -80865,7 +80865,7 @@
           "miller_cap_fall": 0.000974,
           "miller_cap_rise": 0.000513,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -80957,7 +80957,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -81049,7 +81049,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -81228,7 +81228,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18359375
@@ -81409,7 +81409,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B1 !C1 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -81596,7 +81596,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -81783,7 +81783,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -81971,7 +81971,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -82164,7 +82164,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -83134,7 +83134,7 @@
           "miller_cap_fall": 0.00136,
           "miller_cap_rise": 0.000513,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -83226,7 +83226,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -83318,7 +83318,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.05234375
@@ -83497,7 +83497,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.18671875
@@ -83678,7 +83678,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B1 C1 !C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -83865,7 +83865,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -84052,7 +84052,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -84240,7 +84240,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -84433,7 +84433,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -85403,7 +85403,7 @@
           "miller_cap_fall": 0.001987,
           "miller_cap_rise": 0.001386,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -85495,7 +85495,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -85587,7 +85587,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -85766,7 +85766,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.16953125
@@ -85947,7 +85947,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 !B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -86134,7 +86134,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -86321,7 +86321,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -86509,7 +86509,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -86702,7 +86702,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -87672,7 +87672,7 @@
           "miller_cap_fall": 0.002095,
           "miller_cap_rise": 0.00136,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -87764,7 +87764,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -87856,7 +87856,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -88035,7 +88035,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15703125
@@ -88216,7 +88216,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 !B1 B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -88403,7 +88403,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -88590,7 +88590,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -88778,7 +88778,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -88971,7 +88971,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -89941,7 +89941,7 @@
           "miller_cap_fall": 0.002087,
           "miller_cap_rise": 0.00136,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -90033,7 +90033,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -90125,7 +90125,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -90304,7 +90304,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15234375
@@ -90485,7 +90485,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -90672,7 +90672,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -90859,7 +90859,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -91047,7 +91047,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -91240,7 +91240,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -92210,7 +92210,7 @@
           "miller_cap_fall": 0.002051,
           "miller_cap_rise": 0.001253,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -92302,7 +92302,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -92394,7 +92394,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -92573,7 +92573,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15703125
@@ -92754,7 +92754,7 @@
           "stage_type": "both",
           "when": "!A1 A2 !B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -92941,7 +92941,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -93128,7 +93128,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -93316,7 +93316,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -93509,7 +93509,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -94479,7 +94479,7 @@
           "miller_cap_fall": 0.002129,
           "miller_cap_rise": 0.001306,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -94571,7 +94571,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -94663,7 +94663,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -94842,7 +94842,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14765625
@@ -95023,7 +95023,7 @@
           "stage_type": "both",
           "when": "!A1 A2 !B1 B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -95210,7 +95210,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -95397,7 +95397,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -95585,7 +95585,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -95778,7 +95778,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -96748,7 +96748,7 @@
           "miller_cap_fall": 0.002159,
           "miller_cap_rise": 0.001226,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -96840,7 +96840,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -96932,7 +96932,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -97111,7 +97111,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14296875
@@ -97292,7 +97292,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -97479,7 +97479,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -97666,7 +97666,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -97854,7 +97854,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -98047,7 +98047,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -99017,7 +99017,7 @@
           "miller_cap_fall": 0.002073,
           "miller_cap_rise": 0.0012,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -99109,7 +99109,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -99201,7 +99201,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -99380,7 +99380,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15546875
@@ -99561,7 +99561,7 @@
           "stage_type": "both",
           "when": "A1 !A2 !B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -99748,7 +99748,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -99935,7 +99935,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -100123,7 +100123,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -100316,7 +100316,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -101286,7 +101286,7 @@
           "miller_cap_fall": 0.002147,
           "miller_cap_rise": 0.00128,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -101378,7 +101378,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -101470,7 +101470,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -101649,7 +101649,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14453125
@@ -101830,7 +101830,7 @@
           "stage_type": "both",
           "when": "A1 !A2 !B1 B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -102017,7 +102017,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -102204,7 +102204,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -102392,7 +102392,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -102585,7 +102585,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -103555,7 +103555,7 @@
           "miller_cap_fall": 0.002173,
           "miller_cap_rise": 0.001306,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -103647,7 +103647,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -103739,7 +103739,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.04765625
@@ -103918,7 +103918,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.14140625
@@ -104099,7 +104099,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B1 !B2 C2"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -104286,7 +104286,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -104473,7 +104473,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -104661,7 +104661,7 @@
           ]
         },
         "related_pin": "C1",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -104854,7 +104854,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -105824,7 +105824,7 @@
           "miller_cap_fall": 0.001943,
           "miller_cap_rise": 0.000837,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -105916,7 +105916,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -106008,7 +106008,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -106187,7 +106187,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.15078125
@@ -106368,7 +106368,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 !B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -106555,7 +106555,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -106742,7 +106742,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -106930,7 +106930,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -107123,7 +107123,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -108093,7 +108093,7 @@
           "miller_cap_fall": 0.002047,
           "miller_cap_rise": 0.000854,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -108185,7 +108185,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -108277,7 +108277,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -108456,7 +108456,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.13828125
@@ -108637,7 +108637,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 !B1 B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -108824,7 +108824,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -109011,7 +109011,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -109199,7 +109199,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -109392,7 +109392,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -110362,7 +110362,7 @@
           "miller_cap_fall": 0.002222,
           "miller_cap_rise": 0.000694,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -110454,7 +110454,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -110546,7 +110546,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -110725,7 +110725,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.13359375
@@ -110906,7 +110906,7 @@
           "stage_type": "both",
           "when": "!A1 !A2 B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -111093,7 +111093,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -111280,7 +111280,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -111468,7 +111468,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -111661,7 +111661,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -112631,7 +112631,7 @@
           "miller_cap_fall": 0.002048,
           "miller_cap_rise": 0.000854,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -112723,7 +112723,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -112815,7 +112815,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -112994,7 +112994,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.13828125
@@ -113175,7 +113175,7 @@
           "stage_type": "both",
           "when": "!A1 A2 !B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -113362,7 +113362,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -113549,7 +113549,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -113737,7 +113737,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -113930,7 +113930,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -114900,7 +114900,7 @@
           "miller_cap_fall": 0.00217,
           "miller_cap_rise": 0.00089,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -114992,7 +114992,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -115084,7 +115084,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -115263,7 +115263,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.12734375
@@ -115444,7 +115444,7 @@
           "stage_type": "both",
           "when": "!A1 A2 !B1 B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -115631,7 +115631,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -115818,7 +115818,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -116006,7 +116006,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -116199,7 +116199,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -117169,7 +117169,7 @@
           "miller_cap_fall": 0.002391,
           "miller_cap_rise": 0.000712,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -117261,7 +117261,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -117353,7 +117353,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -117532,7 +117532,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.12421875
@@ -117713,7 +117713,7 @@
           "stage_type": "both",
           "when": "!A1 A2 B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -117900,7 +117900,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -118087,7 +118087,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -118275,7 +118275,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -118468,7 +118468,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -119438,7 +119438,7 @@
           "miller_cap_fall": 0.002345,
           "miller_cap_rise": 0.00073,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -119530,7 +119530,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -119622,7 +119622,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -119801,7 +119801,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.13515625
@@ -119982,7 +119982,7 @@
           "stage_type": "both",
           "when": "A1 !A2 !B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -120169,7 +120169,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -120356,7 +120356,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -120544,7 +120544,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -120737,7 +120737,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -121707,7 +121707,7 @@
           "miller_cap_fall": 0.002331,
           "miller_cap_rise": 0.000694,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -121799,7 +121799,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -121891,7 +121891,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -122070,7 +122070,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.12578125
@@ -122251,7 +122251,7 @@
           "stage_type": "both",
           "when": "A1 !A2 !B1 B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -122438,7 +122438,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -122625,7 +122625,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -122813,7 +122813,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -123006,7 +123006,7 @@
       },
       {
         "ccsn_first_stage": {
-          "dc_current ccsn_dc": {
+          "dc_current,ccsn_dc": {
             "index_1": [
               -1.6,
               -0.8,
@@ -123976,7 +123976,7 @@
           "miller_cap_fall": 0.002261,
           "miller_cap_rise": 0.000694,
           "output_voltage_fall": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -124068,7 +124068,7 @@
             ]
           },
           "output_voltage_rise": {
-            "vector ccsn_ovrf": [
+            "vector,ccsn_ovrf": [
               {
                 "index_1": [
                   0.01
@@ -124160,7 +124160,7 @@
             ]
           },
           "propagated_noise_high": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.06640625
@@ -124339,7 +124339,7 @@
             ]
           },
           "propagated_noise_low": {
-            "vector ccsn_pnlh": [
+            "vector,ccsn_pnlh": [
               {
                 "index_1": [
                   1.12265625
@@ -124520,7 +124520,7 @@
           "stage_type": "both",
           "when": "A1 !A2 B1 !B2 C1"
         },
-        "cell_fall delay_template13x10": {
+        "cell_fall,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -124707,7 +124707,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x10": {
+        "cell_rise,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -124894,7 +124894,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x10": {
+        "fall_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,
@@ -125082,7 +125082,7 @@
           ]
         },
         "related_pin": "C2",
-        "rise_transition delay_template13x10": {
+        "rise_transition,delay_template13x10": {
           "index_1": [
             0.01,
             0.01735,

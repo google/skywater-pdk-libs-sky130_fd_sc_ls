@@ -1,5 +1,5 @@
 {
-  "comp_attribute voltage_map": [
+  "comp_attribute,voltage_map": [
     [
       "DESTPWR",
       1.6
@@ -39,6 +39,7 @@
   ],
   "default_arc_mode": "worst_edges",
   "default_max_transition": 1.0,
+  "default_operating_conditions": "ss_150C_1v60",
   "define": [
     {
       "attribute_name": "default_arc_mode",
@@ -96,8 +97,7 @@
       "group_name": "library"
     }
   ],
-  "leakage_sim_opt": "runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
-  "lu_table_template delay_template13x12": {
+  "lu_table_template,delay_template13x12": {
     "index_1": [
       1,
       2,
@@ -130,7 +130,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x4": {
+  "lu_table_template,delay_template13x4": {
     "index_1": [
       1,
       2,
@@ -155,7 +155,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x5": {
+  "lu_table_template,delay_template13x5": {
     "index_1": [
       1,
       2,
@@ -181,7 +181,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x6": {
+  "lu_table_template,delay_template13x6": {
     "index_1": [
       1,
       2,
@@ -208,7 +208,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x8": {
+  "lu_table_template,delay_template13x8": {
     "index_1": [
       1,
       2,
@@ -237,7 +237,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x9": {
+  "lu_table_template,delay_template13x9": {
     "index_1": [
       1,
       2,
@@ -269,7 +269,7 @@
   },
   "nom_temperature": 150.0,
   "nom_voltage": 1.6,
-  "normalized_driver_waveform driver_waveform_template": {
+  "normalized_driver_waveform,driver_waveform_template": {
     "driver_waveform_name": "ramp",
     "index_1": [
       0.01,
@@ -401,19 +401,19 @@
       ]
     ]
   },
-  "operating_conditions max_auto": {
+  "operating_conditions,max_auto": {
     "process": 1,
     "temperature": 150,
     "tree_type": "balanced_tree",
     "voltage": 1.6
   },
-  "operating_conditions ss_150C_1v60": {
+  "operating_conditions,ss_150C_1v60": {
     "process": 1.0,
     "temperature": 150.0,
     "tree_type": "balanced_tree",
     "voltage": 1.6
   },
-  "power_lut_template pwr_template13x12": {
+  "power_lut_template,pwr_template13x12": {
     "index_1": [
       1,
       2,
@@ -446,7 +446,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x4": {
+  "power_lut_template,pwr_template13x4": {
     "index_1": [
       1,
       2,
@@ -471,7 +471,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x5": {
+  "power_lut_template,pwr_template13x5": {
     "index_1": [
       1,
       2,
@@ -497,7 +497,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x6": {
+  "power_lut_template,pwr_template13x6": {
     "index_1": [
       1,
       2,
@@ -524,7 +524,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x8": {
+  "power_lut_template,pwr_template13x8": {
     "index_1": [
       1,
       2,
@@ -553,7 +553,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x9": {
+  "power_lut_template,pwr_template13x9": {
     "index_1": [
       1,
       2,
