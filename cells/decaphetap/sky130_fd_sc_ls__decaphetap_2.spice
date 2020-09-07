@@ -16,7 +16,6 @@
 
 
 .subckt sky130_fd_sc_ls__decaphetap_2 VGND VPB VPWR
-R0 VGND VNB short w=0u l=2.03e+06u
-M1000 VPWR VGND VPWR VPB pshort w=1.255e+06u l=170000u
-+  ad=6.526e+11p pd=6.06e+06u as=0p ps=0u
+X0 VPWR VGND VPWR VPB sky130_fd_pr__pfet_01v8 w=1.255e+06u l=170000u
+X1 VGND VNB VNB short w=0u l=2.03e+06u
 .ends
