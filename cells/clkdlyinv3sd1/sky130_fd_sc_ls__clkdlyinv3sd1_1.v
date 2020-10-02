@@ -52,7 +52,7 @@ module sky130_fd_sc_ls__clkdlyinv3sd1_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_ls__clkdlyinv3sd1 cell (
+    sky130_fd_sc_ls__clkdlyinv3sd1 base (
         .Y(Y),
         .A(A),
         .VPWR(VPWR),
@@ -91,7 +91,7 @@ module sky130_fd_sc_ls__clkdlyinv3sd1_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_ls__clkdlyinv3sd1 cell (
+    sky130_fd_sc_ls__clkdlyinv3sd1 base (
         .Y(Y),
         .A(A)
     );

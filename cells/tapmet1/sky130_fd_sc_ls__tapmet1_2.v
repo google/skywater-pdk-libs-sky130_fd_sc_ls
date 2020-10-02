@@ -47,7 +47,7 @@ module sky130_fd_sc_ls__tapmet1_2 (
     input VGND;
     input VPB ;
     input VNB ;
-    sky130_fd_sc_ls__tapmet1 cell (
+    sky130_fd_sc_ls__tapmet1 base (
         .VPWR(VPWR),
         .VGND(VGND),
         .VPB(VPB),
@@ -80,7 +80,7 @@ module sky130_fd_sc_ls__tapmet1_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_ls__tapmet1 cell ();
+    sky130_fd_sc_ls__tapmet1 base ();
 
 endmodule
 `endcelldefine
