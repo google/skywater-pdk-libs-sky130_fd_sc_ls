@@ -45,7 +45,7 @@ module sky130_fd_sc_ls__decaphetap_2 (
     input VPWR;
     input VGND;
     input VPB ;
-    sky130_fd_sc_ls__decaphetap cell (
+    sky130_fd_sc_ls__decaphetap base (
         .VPWR(VPWR),
         .VGND(VGND),
         .VPB(VPB)
@@ -74,7 +74,7 @@ module sky130_fd_sc_ls__decaphetap_2 (
     supply0 VGND;
     supply1 VPB ;
 
-    sky130_fd_sc_ls__decaphetap cell ();
+    sky130_fd_sc_ls__decaphetap base ();
 
 endmodule
 `endcelldefine

@@ -57,7 +57,7 @@ module sky130_fd_sc_ls__fah_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_ls__fah cell (
+    sky130_fd_sc_ls__fah base (
         .COUT(COUT),
         .SUM(SUM),
         .A(A),
@@ -105,7 +105,7 @@ module sky130_fd_sc_ls__fah_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_ls__fah cell (
+    sky130_fd_sc_ls__fah base (
         .COUT(COUT),
         .SUM(SUM),
         .A(A),
