@@ -30,12 +30,14 @@ MACRO sky130_fd_sc_ls__decaphetap_2
     END
   END VNB
   PIN VPB
+    DIRECTION INPUT ;
     PORT
       LAYER nwell ;
         RECT -0.190000 1.660000 1.150000 3.520000 ;
     END
   END VPB
   PIN VGND
+    DIRECTION INPUT ;
     USE GROUND ;
     PORT
       LAYER met1 ;
@@ -43,6 +45,7 @@ MACRO sky130_fd_sc_ls__decaphetap_2
     END
   END VGND
   PIN VPWR
+    DIRECTION INPUT ;
     USE POWER ;
     PORT
       LAYER met1 ;
@@ -63,6 +66,8 @@ MACRO sky130_fd_sc_ls__decaphetap_2
       RECT 0.155000  3.245000 0.325000 3.415000 ;
       RECT 0.635000 -0.085000 0.805000 0.085000 ;
       RECT 0.635000  3.245000 0.805000 3.415000 ;
+    LAYER pwell ;
+      RECT 0.155000 0.320000 0.805000 1.140000 ;
   END
 END sky130_fd_sc_ls__decaphetap_2
 END LIBRARY
