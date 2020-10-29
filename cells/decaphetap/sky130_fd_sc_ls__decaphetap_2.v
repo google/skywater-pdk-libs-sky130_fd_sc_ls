@@ -59,16 +59,7 @@ endmodule
 /*********************************************************/
 
 `celldefine
-module sky130_fd_sc_ls__decaphetap_2 (
-    VPWR,
-    VGND,
-    VPB
-);
-
-    input VPWR;
-    input VGND;
-    input VPB ;
-
+module sky130_fd_sc_ls__decaphetap_2 ();
     // Voltage supply signals
     supply1 VPWR;
     supply0 VGND;
